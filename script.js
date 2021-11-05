@@ -1,0 +1,6 @@
+const sliderContainer = querySelector ('.slider-contaiiner')
+const leftSlide = querySelector ('.left-slide')
+const rightSlide = querySelector ('.right-slide')
+const upButton = querySelector ('.up-button')
+const downButton = querySelector ('.down-button')
+const sliderContainer = querySelector ('.slider-contaiiner')

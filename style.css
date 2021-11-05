@@ -67,6 +67,14 @@ button {
   cursor: pointer;
 }
 
+button :hover {
+  color: #222;
+}
+
+button :focus {
+  outline: none;
+}
+
 .slider-container .action-buttons button {
   position: absolute;
   left: 25%;
@@ -76,11 +84,11 @@ button {
 
 .slider-container .action-buttons .down-button {
   transform: translateX(-100%);
-  border-radius: 20% 0 0 20%;
+  border-radius: 15% 0 0 15%;
 }
 
 .slider-container .action-buttons .up-button {
   transform: translatey(-100%);
-  border-radius: 0 20% 20% 0;
+  border-radius: 0 15% 15% 0;
 }
 
