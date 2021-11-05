@@ -58,3 +58,29 @@ body {
   height: 100%;
   width: 100%;
 }
+
+button {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.slider-container .action-buttons button {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  z-index: 100;
+}
+
+.slider-container .action-buttons .down-button {
+  transform: translateX(-100%);
+  border-radius: 20% 0 0 20%;
+}
+
+.slider-container .action-buttons .up-button {
+  transform: translatey(-100%);
+  border-radius: 0 20% 20% 0;
+}
+
