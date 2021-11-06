@@ -1,6 +1,10 @@
-const sliderContainer = querySelector ('.slider-contaiiner')
-const leftSlide = querySelector ('.left-slide')
-const rightSlide = querySelector ('.right-slide')
-const upButton = querySelector ('.up-button')
-const downButton = querySelector ('.down-button')
-const sliderContainer = querySelector ('.slider-contaiiner')
+const sliderContainer = document.querySelector ('.slider-container')
+const leftSlide = document.querySelector ('.left-slide')
+const rightSlide = document.querySelector ('.right-slide')
+const upButton = document.querySelector ('.up-button')
+const downButton = document.querySelector ('.down-button')
+const slidesLength = rightSlide.querySelectorAll ('div').length
+
+let activeSlideIndex = 0
+
+leftSlide.style.top = `-${(slidesLength - 1) * 100}vh`

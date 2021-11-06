@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-
 body {
   font-family: 'open sans', sans-serif;
   height: 100vh;
@@ -91,4 +90,3 @@ button :focus {
   transform: translatey(-100%);
   border-radius: 0 15% 15% 0;
 }
-
