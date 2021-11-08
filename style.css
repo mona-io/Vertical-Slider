@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=open sans');
+@import url('https://fonts.googleapis.com/css?family=Mohave');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'open sans', sans-serif;
+  font-family: 'Mohave', sans-serif;
   height: 100vh;
 }
 
